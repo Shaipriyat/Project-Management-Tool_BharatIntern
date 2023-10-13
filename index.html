@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Task'o'Chat</title>
+</head>
+<body>
+    <header>
+        <h1>Task'o'Chat</h1>
+    </header>
+    <div class="container">
+        <div class="left-panel">
+            <div class="user-profile">
+                <h2>Person1</h2>
+                <p>Bio: Web Developer</p>
+            </div>
+            <div class="task-assignment">
+                <h2>Task Assignment</h2>
+                <input type="text" id="task-title" placeholder="Task Title">
+                <textarea id="task-description" placeholder="Task Description"></textarea>
+                <select id="assignee">
+                    <option value="user1">User 1</option>
+                    <option value="user2">User 2</option>
+                </select>
+                <button id="assign-task">Assign Task</button>
+            </div>
+        </div>
+        <div class="right-panel">
+            <h2>Chat</h2>
+            <div id="chat">
+            </div>
+            <input type="text" id="chat-message" placeholder="Type a message...">
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
